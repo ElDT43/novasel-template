@@ -1,9 +1,9 @@
 {
   "name": "tailwind",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "serve": "http-server ./",
     "test": "tailwindcss -i ./assets/input.css -o ./assets/css/style.css -w"
   },
   "keywords": [],
@@ -14,6 +14,8 @@
     "tailwindcss": "^3.2.4"
   },
   "dependencies": {
+    "http-server": "^14.1.1",
     "tw-elements": "^1.0.0-alpha13"
-  }
+  },
+  "description": ""
 }
