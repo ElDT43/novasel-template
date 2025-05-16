@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "serve": "http-server ./",
+    "serve": "http-server ./ -c5",
     "test": "tailwindcss -i ./assets/input.css -o ./assets/css/style.css -w"
   },
   "keywords": [],

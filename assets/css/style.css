@@ -49,6 +49,7 @@ html {
     /* 4 */
     font-feature-settings: normal;
     /* 5 */
+    scroll-behavior: smooth;
 }
 
 /*
@@ -5789,6 +5790,10 @@ textarea.form-control.is-invalid {
     margin-top: 245px;
 }
 
+.mt-\[150px\] {
+    margin-top: 150px;
+}
+
 .mr-\[30px\] {
     margin-right: 30px;
 }
@@ -6083,6 +6088,10 @@ textarea.form-control.is-invalid {
 
 .w-\[700px\] {
     width: 700px;
+}
+
+.w-\[1180px\] {
+    width: 1180px;
 }
 
 .w-\[48\%\] {
