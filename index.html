@@ -28,7 +28,7 @@
         <link href="assets/css/style.css" rel="stylesheet" />
     </head>
 
-    <body>
+    <body class="overflow-x-hidden max-w-full">
         <!-- start page-wrapper -->
         <div class="page-wrapper">
             <!-- start preloader -->
@@ -174,19 +174,14 @@
             </section>
             <!-- end of hero -->
 
-            <div class="separator">Bienvenido a NOVASEL</div>
-            <!-- start barristar-about-section -->
-            <section class="pt-[120px] pb-[100px] md:py-[80px]">
-                <div class="wraper bg-[#f9c9b4]">
+            <div class="separator-novasel font-medium before:h-[1px] before:bg-[#c0b596]">Bienvenido a NOVASEL</div>
+
+            <!-- start barristar-welcome-section -->
+            <section class="pt-[40px] pb-[100px] md:py-[40px]">
+                <div class="wraper bg-[#f9c9b4] welcome-text">
                   <div class="grid grid-cols-12 items-center gap-3">
                          <div class="col-span-12 md:col-span-12">
-                             <div class="mb-[20px]">
-                                 <div class="text-center">
-                                     <h2 class="text-[36px] md:text-[26px] font-medium text-[#333] pb-[20px] relative
-                                     before:absolute before:content-[''] before:left-[-68px]
-                                     before:top-[30px] before:transform before:-translate-y-1/2
-                                     before:w-[60px] before:h-[1px] before:bg-[#c0b596] md:before:hidden">Bienvenido a NOVASEL</h2>
-                                 </div>
+                             <div class="my-[35px] md:mx-[15px]">
                                  <p class="text-[#666] text-[15px] leading-[28px] mb-[30px]">
                                      En muchas empresas e instituciones
                                      medianas, contar con un departamento
@@ -231,20 +226,18 @@
                                      puede sumar valor a su organización.
                                  </p>
                                  <div class="mb-[50px] col:mb-[20px]">
-                                     <a
-                                         href="#"
-                                         class="bg-[#f9c9b4] cursor-pointer text-[16px] font-semibold text-white px-[38px] py-[10px] capitalize inline-block mt-[6px] transition ease-in-out duration-300 hover:bg-[#ff9966] col:mb-[5px] col:mt-[15px] col:text-[15px] col:px-[18px] col:py-[8px]"
-                                         >Conoce nuestros servicios</a
-                                     >
+                                     <a href="#" class="text-[#666] uppercase underline font-base-font text-[15px] font-semibold transition-all hover:text-[#c0b596]">Conoce nuestros servicios</a>
                                  </div>
                              </div>
                          </div>
                     </div>
                 </div>
-             </section>
-             <!-- end barristar-about-section -->
+            </section>
+            <!-- end barristar-about-section -->
 
-            <!-- start barristar-about-section -->
+             <hr />
+
+             <!-- start barristar-about-section -->
             <section
                 class="pt-[120px] pb-[100px] md:pt-[90px] md:pb-[50px]"
                 id="about-us"
@@ -307,6 +300,8 @@
                 </div>
             </section>
             <!-- end barristar-about-section -->
+
+            <hr />
 
             <!--start barristar-practice-area -->
             <section class="bg-[#f5f5f5] pt-[95px] pb-[70px]" id="our-services">
@@ -422,6 +417,47 @@
                 </div>
             </section>
             <!--end barristar-practice-area-->
+
+            <hr />
+
+            <!-- start barristar-about-section -->
+           <section
+               class="pt-[120px] pb-[100px] md:pt-[90px] md:pb-[50px]"
+               id="about-us"
+           >
+               <div class="wraper ">
+                   <div class="grid grid-cols-12 items-center gap-3">
+                       <div class="col-span-6 md:col-span-12">
+                           <div class="mb-[20px] mr-[30px]">
+                               <h2 class="text-[#282e3f] text-[32px]">
+                                   Equipo de trabajo
+                               </h2>
+                               <p
+                                   class="text-[#666] text-[15px] leading-[28px] mb-[30px]"
+                               >
+                                   Nuestro equipo está compuesto por un plantel de profesionales con experticia en gestión de recursos humanos y en manejo de procesos de reclutamiento, selec-
+                                   ción y evaluación de talentos. Nuestro fundador y director ejecutivo, Enrique Chadicov RH, tiene más de 20 años de experiencia en dirección y gestión de recursos humanos y ha dirigido departamentos de recursos humanos en empresasde gran porte y mediano porte, tanto en el Uruguay como en otros países de América Latina y Europa. Enrique cuenta con una mestría en Administración de Empresas, Especialización en Desarrollo Gerencial, formación en liderazgo y gestión de re-
+                                   cursos humanos. Asimismo, está certificado en metodologías de la optimización de procesos y capacidades organizacionales.
+                               </p>
+
+                           </div>
+                       </div>
+                       <div class="col-span-6 md:col-span-12">
+                           <div class="relative mb-[20px]">
+                               <div
+                                   class="relative max-w-[520px] before:absolute before:bg-[#f9c9b4] before:w-full before:h-full before:content-[''] before:-z-10 before:right-[-20px] before:top-[-20px]"
+                               >
+                                   <img
+                                       class="w-full"
+                                       src="assets/images/about/2.jpg"
+                                       alt
+                                   />
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </section>
 
             <!-- start of barristar-studies-area -->
             <!--<section class="py-[100px] md:py-[90px]">
@@ -1825,7 +1861,7 @@
                         class="border-t-1 border-[rgba(192,181,150,.3)] relative"
                     >
                         <div
-                            class="h-[1px] absolute left-[15px] top-0 bg-[#ffffff0d] w-[calc(100%+30px)]"
+                            class="h-[1px] absolute left-[15px] top-0 bg-[#ffffff0d] w-[calc(100%)]"
                         ></div>
                         <p class="text-center text-white text-[14px] py-[20px]">
                             Privacy Policy | &copy; 2023 Barristar. All rights
