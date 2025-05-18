@@ -448,7 +448,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Playfair Display", serif;
+    font-family: "Open Sans", sans-serif;
     color: #282e3f;
 }
 
@@ -7130,6 +7130,11 @@ textarea.form-control.is-invalid {
     border-color: transparent;
 }
 
+.border-\[\#003e5d\] {
+    --tw-border-opacity: 1;
+    border-color: rgb(00 62 93 / var(--tw-border-opacity));
+}
+
 .border-\[\#d8e0f1\] {
     --tw-border-opacity: 1;
     border-color: rgb(216 224 241 / var(--tw-border-opacity));
@@ -7147,6 +7152,16 @@ textarea.form-control.is-invalid {
 .bg-\[\#003e5d\] {
     --tw-bg-opacity: 1;
     background-color: rgb(00 62 93 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#76cef2\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(118 206 242 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#b5e8f7\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(181 232 247 / var(--tw-bg-opacity));
 }
 
 .bg-\[rgba\(255\2c 255\2c 255\2c \.05\)\] {
@@ -7896,8 +7911,8 @@ textarea.form-control.is-invalid {
 
 .font-heading-font {
     font-family:
-        Playfair Display,
-        serif;
+        Open Sans,
+        sans-serif;
 }
 
 .font-\[\'some_font\'\2c sans-serif\] {
@@ -9456,6 +9471,16 @@ textarea.form-control.is-invalid {
     background-color: rgb(249 201 180 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-\[\#76cef2\]:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(118 206 242 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#b5e8f7\]:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(181 232 247 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-blue-700:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(29 78 216 / var(--tw-bg-opacity));
@@ -10524,7 +10549,7 @@ textarea.form-control.is-invalid {
     text-align: center;
     margin-top: 30px;
     font-size: 26px;
-    font-family: "Playfair Display", serif;
+    font-family: "Open Sans", serif;
 }
 
 .separator-novasel::before,
