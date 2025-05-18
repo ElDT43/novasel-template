@@ -7616,20 +7616,28 @@ textarea.form-control.is-invalid {
     padding-right: 40px;
 }
 
-.pt-\[130px\] {
-    padding-top: 130px;
+.pt-\[40px\] {
+    padding-top: 40px;
+}
+
+.pt-\[50px\] {
+    padding-top: 50px;
+}
+
+.pt-\[100px\] {
+    padding-top: 100px;
 }
 
 .pt-\[120px\] {
     padding-top: 120px;
 }
 
-.pb-\[190px\] {
-    padding-bottom: 190px;
+.pt-\[130px\] {
+    padding-top: 130px;
 }
 
-.pt-\[100px\] {
-    padding-top: 100px;
+.pb-\[190px\] {
+    padding-bottom: 190px;
 }
 
 .pb-\[90px\] {
@@ -7646,10 +7654,6 @@ textarea.form-control.is-invalid {
 
 .pl-\[15px\] {
     padding-left: 15px;
-}
-
-.pt-\[50px\] {
-    padding-top: 50px;
 }
 
 .pb-\[30px\] {
@@ -8806,8 +8810,19 @@ textarea.form-control.is-invalid {
     max-width: 1200px;
 }
 
+.welcome-text {
+    max-width: none;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
 @media (max-width: 1399px) {
     .wraper {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .welcome-text {
         padding-left: 12px;
         padding-right: 12px;
     }
@@ -8818,6 +8833,11 @@ textarea.form-control.is-invalid {
         padding-left: 12px;
         padding-right: 12px;
     }
+
+    .welcome-text {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -8825,10 +8845,20 @@ textarea.form-control.is-invalid {
         padding-left: 20px;
         padding-right: 20px;
     }
+
+    .welcome-text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 @media (max-width: 767px) {
     .wraper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .welcome-text {
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -8899,6 +8929,11 @@ textarea.form-control.is-invalid {
 .before\:right-\[-10px\]::before {
     content: var(--tw-content);
     right: -10px;
+}
+
+.before\:right-\[-20px\]::before {
+    content: var(--tw-content);
+    right: -20px;
 }
 
 .before\:bottom-\[-10px\]::before {
@@ -9786,6 +9821,11 @@ textarea.form-control.is-invalid {
         grid-column: span 10 / span 10;
     }
 
+    .md\:mx-\[15px\] {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
     .md\:mx-auto {
         margin-left: auto;
         margin-right: auto;
@@ -9911,14 +9951,19 @@ textarea.form-control.is-invalid {
         padding-right: 100px;
     }
 
-    .md\:py-\[90px\] {
-        padding-top: 90px;
-        padding-bottom: 90px;
+    .md\:py-\[40px\] {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .md\:py-\[80px\] {
         padding-top: 80px;
         padding-bottom: 80px;
+    }
+
+    .md\:py-\[90px\] {
+        padding-top: 90px;
+        padding-bottom: 90px;
     }
 
     .md\:px-\[25px\] {
@@ -9929,10 +9974,6 @@ textarea.form-control.is-invalid {
     .md\:py-\[35px\] {
         padding-top: 35px;
         padding-bottom: 35px;
-    }
-
-    .md\:pt-\[195px\] {
-        padding-top: 195px;
     }
 
     .md\:pb-\[80px\] {
@@ -9951,16 +9992,20 @@ textarea.form-control.is-invalid {
         padding-bottom: 75px;
     }
 
+    .md\:pt-\[56px\] {
+        padding-top: 56px;
+    }
+
     .md\:pt-\[90px\] {
         padding-top: 90px;
     }
 
-    .md\:pb-\[60px\] {
-        padding-bottom: 60px;
+    .md\:pt-\[195px\] {
+        padding-top: 195px;
     }
 
-    .md\:pt-\[56px\] {
-        padding-top: 56px;
+    .md\:pb-\[60px\] {
+        padding-bottom: 60px;
     }
 
     .md\:pr-0 {
@@ -10001,6 +10046,10 @@ textarea.form-control.is-invalid {
 
     .md\:text-\[25px\] {
         font-size: 25px;
+    }
+
+    .md\:leading-\[60px\] {
+        line-height: 60px;
     }
 
     .md\:leading-\[60px\] {
@@ -10460,29 +10509,35 @@ textarea.form-control.is-invalid {
 }
 
 @media (max-width: 991px) {
+    .welcome-text {
+    }
+
     .welcome-text p {
         font-size: 14px;
         line-height: 1.8;
     }
 }
 
-.separator {
-  display: flex;
-  align-items: center;
-  text-align: center;
+.separator-novasel {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 26px;
+    font-family: "Playfair Display", serif;
 }
 
-.separator::before,
-.separator::after {
-  content: '';
-  flex: 1;
-  border-bottom: 5px solid #003e5d;
+.separator-novasel::before,
+.separator-novasel::after {
+    content: "";
+    flex: 1;
+    border-bottom: 5px solid #003e5d;
 }
 
-.separator:not(:empty)::before {
-  margin-right: .25em;
+.separator-novasel:not(:empty)::before {
+    margin-right: 0.25em;
 }
 
-.separator:not(:empty)::after {
-  margin-left: .25em;
+.separator-novasel:not(:empty)::after {
+    margin-left: 0.25em;
 }
