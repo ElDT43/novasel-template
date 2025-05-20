@@ -7202,6 +7202,11 @@ textarea.form-control.is-invalid {
     background-color: rgb(249 201 180 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#ff9966\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 153 102 / var(--tw-bg-opacity));
+}
+
 .bg-\[rgba\(249\2c 201\2c 180\2c \.30\)\] {
     background-color: rgba(249, 201, 180, 0.3);
 }
@@ -9686,6 +9691,12 @@ textarea.form-control.is-invalid {
     color: rgb(40 46 63 / var(--tw-text-opacity));
 }
 
+.group:hover .group-hover\:text-\[\#ff9966\] {
+    --tw-text-opacity: 1;
+    color: rgb(255 153 102 / var(--tw-text-opacity));
+}
+
+/* Don't use */
 .group:hover .group-hover\:text-\[\#f9c9b4\] {
     --tw-text-opacity: 1;
     color: rgb(249 201 180 / var(--tw-text-opacity));
