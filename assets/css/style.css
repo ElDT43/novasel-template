@@ -7429,6 +7429,7 @@ textarea.form-control.is-invalid {
     object-fit: scale-down;
 }
 
+/* ============== PADDING ============== */
 .p-\[15px\] {
     padding: 15px;
 }
@@ -7457,14 +7458,21 @@ textarea.form-control.is-invalid {
     padding: 0.25rem;
 }
 
-.py-\[35px\] {
-    padding-top: 35px;
-    padding-bottom: 35px;
+/* ============== PADDING TOP-BOTTOM ============== */
+
+
+.py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
-.px-\[18px\] {
-    padding-left: 18px;
-    padding-right: 18px;
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.py-2\.5 {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
 }
 
 .py-\[5px\] {
@@ -7472,44 +7480,9 @@ textarea.form-control.is-invalid {
     padding-bottom: 5px;
 }
 
-.py-\[37px\] {
-    padding-top: 37px;
-    padding-bottom: 37px;
-}
-
-.py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-.px-\[5px\] {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.px-\[200px\] {
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-.py-\[12px\] {
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
-
-.px-\[22px\] {
-    padding-left: 22px;
-    padding-right: 22px;
-}
-
-.py-\[20px\] {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.px-\[38px\] {
-    padding-left: 38px;
-    padding-right: 38px;
+.py-\[6px\] {
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .py-\[10px\] {
@@ -7517,24 +7490,14 @@ textarea.form-control.is-invalid {
     padding-bottom: 10px;
 }
 
-.py-\[100px\] {
-    padding-top: 100px;
-    padding-bottom: 100px;
+.py-\[12px\] {
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
-.px-\[10px\] {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.px-\[20px\] {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.py-\[6px\] {
-    padding-top: 6px;
-    padding-bottom: 6px;
+.py-\[20px\] {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .py-\[25px\] {
@@ -7542,34 +7505,14 @@ textarea.form-control.is-invalid {
     padding-bottom: 25px;
 }
 
-.px-\[15px\] {
-    padding-left: 15px;
-    padding-right: 15px;
+.py-\[35px\] {
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
-.py-\[120px\] {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.px-\[35px\] {
-    padding-left: 35px;
-    padding-right: 35px;
-}
-
-.px-\[30px\] {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.px-\[3px\] {
-    padding-left: 3px;
-    padding-right: 3px;
-}
-
-.px-\[25px\] {
-    padding-left: 25px;
-    padding-right: 25px;
+.py-\[37px\] {
+    padding-top: 37px;
+    padding-bottom: 37px;
 }
 
 .py-\[40px\] {
@@ -7577,29 +7520,22 @@ textarea.form-control.is-invalid {
     padding-bottom: 40px;
 }
 
-.px-\[50px\] {
-    padding-left: 50px;
-    padding-right: 50px;
+.py-\[100px\] {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-.px-\[40px\] {
-    padding-left: 40px;
-    padding-right: 40px;
+.py-\[120px\] {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-.px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-}
 
-.py-2\.5 {
-    padding-top: 0.625rem;
-    padding-bottom: 0.625rem;
-}
+/* ============== PADDING LEFT-RIGHT ============== */
 
-.py-2 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+.px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
 }
 
 .px-1\.5 {
@@ -7607,41 +7543,142 @@ textarea.form-control.is-invalid {
     padding-right: 0.375rem;
 }
 
-.px-1 {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.px-\[3px\] {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.px-\[5px\] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.px-\[10px\] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.px-\[15px\] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.px-\[18px\] {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.px-\[20px\] {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.px-\[22px\] {
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.px-\[25px\] {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.px-\[30px\] {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.px-\[35px\] {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.px-\[38px\] {
+    padding-left: 38px;
+    padding-right: 38px;
+}
+
+.px-\[40px\] {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.px-\[50px\] {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.px-\[200px\] {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/* ============== PADDING TOP ============== */
+.pt-2 {
+    padding-top: 0.5rem;
+}
+
+.pt-3 {
+    padding-top: 0.75rem;
 }
 
 .pt-\[5px\] {
     padding-top: 5px;
 }
 
-.pl-0 {
-    padding-left: 0px;
+.pt-\[10px\] {
+    padding-top: 10px;
 }
 
-.pr-\[10px\] {
-    padding-right: 10px;
+.pt-\[15px\] {
+    padding-top: 15px;
 }
 
-.pl-\[37px\] {
-    padding-left: 37px;
+.pt-\[20px\] {
+    padding-top: 20px;
 }
 
-.pl-\[10px\] {
-    padding-left: 10px;
+.pt-\[24px\] {
+    padding-top: 24px;
 }
 
-.pr-\[40px\] {
-    padding-right: 40px;
+.pt-\[25px\] {
+    padding-top: 25px;
+}
+
+.pt-\[30px\] {
+    padding-top: 30px;
+}
+
+.pt-\[35px\] {
+    padding-top: 35px;
 }
 
 .pt-\[40px\] {
     padding-top: 40px;
 }
 
+.pt-\[47px\] {
+    padding-top: 47px;
+}
+
 .pt-\[50px\] {
     padding-top: 50px;
+}
+
+.pt-\[70px\] {
+    padding-top: 70px;
+}
+
+.pt-\[94px\] {
+    padding-top: 94px;
+}
+
+.pt-\[95px\] {
+    padding-top: 95px;
 }
 
 .pt-\[100px\] {
@@ -7656,202 +7693,162 @@ textarea.form-control.is-invalid {
     padding-top: 130px;
 }
 
-.pb-\[190px\] {
-    padding-bottom: 190px;
-}
-
-.pb-\[90px\] {
-    padding-bottom: 90px;
-}
-
-.pr-\[125px\] {
-    padding-right: 125px;
-}
-
-.pt-\[15px\] {
-    padding-top: 15px;
-}
-
-.pl-\[15px\] {
-    padding-left: 15px;
-}
-
-.pb-\[30px\] {
-    padding-bottom: 30px;
-}
-
-.pl-\[24px\] {
-    padding-left: 24px;
-}
-
-.pb-\[100px\] {
-    padding-bottom: 100px;
-}
-
-.pb-\[20px\] {
-    padding-bottom: 20px;
-}
-
-.pt-\[95px\] {
-    padding-top: 95px;
-}
-
-.pb-\[95px\] {
-    padding-bottom: 95px;
-}
-
-.pb-\[10px\] {
-    padding-bottom: 10px;
-}
-
-.pt-\[30px\] {
-    padding-top: 30px;
-}
-
-.pl-\[33px\] {
-    padding-left: 33px;
-}
-
-.pr-\[50px\] {
-    padding-right: 50px;
-}
-
-.pr-\[20px\] {
-    padding-right: 20px;
-}
-
-.pb-\[12px\] {
-    padding-bottom: 12px;
-}
-
-.pt-\[10px\] {
-    padding-top: 10px;
-}
-
-.pb-\[8px\] {
-    padding-bottom: 8px;
-}
-
-.pt-\[94px\] {
-    padding-top: 94px;
-}
-
-.pb-\[70px\] {
-    padding-bottom: 70px;
-}
-
-.pt-\[20px\] {
-    padding-top: 20px;
-}
-
-.pt-\[70px\] {
-    padding-top: 70px;
-}
-
-.pb-\[80px\] {
-    padding-bottom: 80px;
-}
-
-.pr-\[80px\] {
-    padding-right: 80px;
-}
-
-.pl-\[30px\] {
-    padding-left: 30px;
-}
-
-.pt-\[47px\] {
-    padding-top: 47px;
-}
-
+/* ============== PADDING BOTTOM ============== */
 .pb-0 {
     padding-bottom: 0px;
-}
-
-.pb-\[36px\] {
-    padding-bottom: 36px;
-}
-
-.pb-\[25px\] {
-    padding-bottom: 25px;
-}
-
-.pl-\[20px\] {
-    padding-left: 20px;
-}
-
-.pt-\[25px\] {
-    padding-top: 25px;
-}
-
-.pb-\[45px\] {
-    padding-bottom: 45px;
-}
-
-.pr-\[45px\] {
-    padding-right: 45px;
-}
-
-.pr-\[15px\] {
-    padding-right: 15px;
-}
-
-.pl-\[25px\] {
-    padding-left: 25px;
-}
-
-.pl-\[5px\] {
-    padding-left: 5px;
-}
-
-.pr-\[5px\] {
-    padding-right: 5px;
-}
-
-.pr-\[25px\] {
-    padding-right: 25px;
-}
-
-.pl-\[100px\] {
-    padding-left: 100px;
-}
-
-.pl-\[45px\] {
-    padding-left: 45px;
-}
-
-.pl-\[40px\] {
-    padding-left: 40px;
-}
-
-.pr-\[7px\] {
-    padding-right: 7px;
-}
-
-.pt-\[24px\] {
-    padding-top: 24px;
-}
-
-.pt-\[35px\] {
-    padding-top: 35px;
-}
-
-.pb-\[50px\] {
-    padding-bottom: 50px;
-}
-
-.pt-3 {
-    padding-top: 0.75rem;
-}
-
-.pt-2 {
-    padding-top: 0.5rem;
 }
 
 .pb-5 {
     padding-bottom: 1.25rem;
 }
 
+.pb-\[8px\] {
+    padding-bottom: 8px;
+}
+
+.pb-\[10px\] {
+    padding-bottom: 10px;
+}
+
+.pb-\[12px\] {
+    padding-bottom: 12px;
+}
+
+.pb-\[20px\] {
+    padding-bottom: 20px;
+}
+
+.pb-\[25px\] {
+    padding-bottom: 25px;
+}
+
+.pb-\[30px\] {
+    padding-bottom: 30px;
+}
+
+.pb-\[36px\] {
+    padding-bottom: 36px;
+}
+
+.pb-\[45px\] {
+    padding-bottom: 45px;
+}
+
+.pb-\[50px\] {
+    padding-bottom: 50px;
+}
+
+.pb-\[70px\] {
+    padding-bottom: 70px;
+}
+
+.pb-\[80px\] {
+    padding-bottom: 80px;
+}
+
+.pb-\[90px\] {
+    padding-bottom: 90px;
+}
+
+.pb-\[95px\] {
+    padding-bottom: 95px;
+}
+
+.pb-\[100px\] {
+    padding-bottom: 100px;
+}
+
+.pb-\[190px\] {
+    padding-bottom: 190px;
+}
+
+/* ============== PADDING LEFT ============== */
+.pl-0 {
+    padding-left: 0px;
+}
+
+.pl-\[5px\] {
+    padding-left: 5px;
+}
+
+.pl-\[10px\] {
+    padding-left: 10px;
+}
+
+.pl-\[15px\] {
+    padding-left: 15px;
+}
+
+.pl-\[20px\] {
+    padding-left: 20px;
+}
+
+.pl-\[24px\] {
+    padding-left: 24px;
+}
+
+.pl-\[25px\] {
+    padding-left: 25px;
+}
+
+.pl-\[30px\] {
+    padding-left: 30px;
+}
+
+.pl-\[33px\] {
+    padding-left: 33px;
+}
+
+.pl-\[37px\] {
+    padding-left: 37px;
+}
+
+/* ============== PADDING RIGHT ============== */
+.pr-\[5px\] {
+    padding-right: 5px;
+}
+
+.pr-\[7px\] {
+    padding-right: 7px;
+}
+
+.pr-\[10px\] {
+    padding-right: 10px;
+}
+
+.pr-\[15px\] {
+    padding-right: 15px;
+}
+
+.pr-\[20px\] {
+    padding-right: 20px;
+}
+
+.pr-\[25px\] {
+    padding-right: 25px;
+}
+
+.pr-\[40px\] {
+    padding-right: 40px;
+}
+
+.pr-\[45px\] {
+    padding-right: 45px;
+}
+
+.pr-\[50px\] {
+    padding-right: 50px;
+}
+
+.pr-\[80px\] {
+    padding-right: 80px;
+}
+
+.pr-\[125px\] {
+    padding-right: 125px;
+}
+
+/* ============== TEXT ============== */
 .text-left {
     text-align: left;
 }
