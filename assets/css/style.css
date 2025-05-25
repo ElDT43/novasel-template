@@ -9241,6 +9241,12 @@ textarea.form-control.is-invalid {
     background-color: rgb(121 120 122 / var(--tw-bg-opacity));
 }
 
+.before\:bg-\[\#76cef2\]::before {
+    content: var(--tw-content);
+    --tw-bg-opacity: 1;
+    background-color: rgb(118 206 242 / var(--tw-bg-opacity));
+}
+
 .before\:bg-\[rgba\(255\2c 255\2c 255\2c \.07\)\]::before {
     content: var(--tw-content);
     background-color: rgba(255, 255, 255, 0.07);
@@ -9481,6 +9487,11 @@ textarea.form-control.is-invalid {
     background-color: rgb(118 206 242 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-\[\#fff\]:hover {
+    --tw-bg-opacity: 1;
+    background-color: #fff / var(--tw-bg-opacity));
+}
+
 .hover\:bg-\[\#b5e8f7\]:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(181 232 247 / var(--tw-bg-opacity));
@@ -9674,6 +9685,11 @@ textarea.form-control.is-invalid {
 .group:hover .group-hover\:bg-\[\#fff\] {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#f9c9b4\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 201 180 / var(--tw-bg-opacity));
 }
 
 .group:hover .group-hover\:bg-\[\#666\] {
@@ -10576,4 +10592,40 @@ textarea.form-control.is-invalid {
 
 .separator-novasel:not(:empty)::after {
     margin-left: 0.25em;
+}
+
+.membership-card {
+    border: 2px solid #fff;
+    margin-top: 60px;
+}
+
+.membership-card:hover{
+    border: 2px solid #ff9966;
+}
+
+.membership-card-title-header {
+    padding: 10px;
+    text-align: center;
+    background-color: #ff9966;
+    color: #fff;
+    font-weight: 600;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+    .membership-card {
+        border: 2px solid #ff9966;
+    }
+
+    .membership-card-title-header {
+        padding: 10px;
+        text-align: center;
+        background-color: #ff9966;
+        color: #fff;
+        font-weight: 600;
+        margin-top: -44px;
+        margin-bottom: 40px;
+        border: 2px solid #ff9966;
+    }
 }
