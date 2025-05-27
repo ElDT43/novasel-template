@@ -1450,7 +1450,7 @@ All this is done for any sub-level being entered.
 @media (max-width: 399px) {
     .logo {
         position: relative;
-        right: -25px;
+        right: 0px;
     }
 }
 
