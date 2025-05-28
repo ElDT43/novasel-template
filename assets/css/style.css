@@ -8279,6 +8279,11 @@ textarea.form-control.is-invalid {
     color: rgb(119 119 119 / var(--tw-text-opacity));
 }
 
+.text-\[\#b5e8f7\] {
+    --tw-text-opacity: 1;
+    color: rgb(181 232 247 / var(--tw-text-opacity));
+}
+
 .text-\[\#336699\]\/\[\.35\] {
     color: rgb(51 102 153 / 0.35);
 }

@@ -386,11 +386,11 @@
 }
 
 #dl-menu li a {
-    color: #fff !important;
+    color: #003e5d !important;
 }
 
 #dl-menu li a::after {
-    color: #fff !important;
+    color: #003e5d !important;
 }
 
 #dl-menu li a:hover {
@@ -410,16 +410,16 @@
 }
 
 .dl-menuwrapper button {
-    background-color: #3757f7;
+    background-color: #003e5d;
 }
 
 .dl-back::after {
-    color: #fff !important;
+    color: #003e5d !important;
 }
 
 #dl-menu .dl-trigger {
     right: -20px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 @media (max-width: 575px) {
@@ -463,7 +463,6 @@
     text-indent: -900em;
     overflow: hidden;
     cursor: pointer;
-    background-color: #fff;
     width: 40px;
     height: 40px;
     border: 0;
@@ -471,18 +470,18 @@
     position: relative;
 }
 
-button.dl-trigger {
+/* button.dl-trigger {
     background-color: #fff;
-}
+} */
 
 .dl-menuwrapper button.dl-active,
 .dl-menuwrapper ul {
     /* background: #aba38d; */
-    background: #ff9966;
+    background: #fff;
 }
 
 .dl-menuwrapper button.dl-active {
-    background-color: #fff;
+    background-color: #003e5d;
 }
 
 .dl-menuwrapper button:after {
@@ -490,12 +489,12 @@ button.dl-trigger {
     position: absolute;
     width: 68%;
     height: 2px;
-    background: #003de5;
+    background: #fff;
     top: 9px;
     left: 16%;
     box-shadow:
-        0 10px 0 #003de5,
-        0 20px 0 #003de5;
+        0 10px 0 #fff,
+        0 20px 0 #fff;
 }
 
 .dl-menuwrapper ul {
@@ -516,7 +515,7 @@ button.dl-trigger {
     font-size: 16px;
     line-height: 20px;
     font-weight: 300;
-    color: #fff;
+    color: #003e5d;
     outline: none;
 }
 
@@ -542,7 +541,7 @@ button.dl-trigger {
 
 .dl-menuwrapper li.dl-back:after {
     left: 10px;
-    color: rgba(212, 204, 198, 0.3);
+    color: red rgba(212, 204, 198, 0.3);
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
@@ -1319,7 +1318,7 @@ All this is done for any sub-level being entered.
 .demo-5 .dl-menuwrapper button:hover,
 .demo-5 .dl-menuwrapper button.dl-active,
 .demo-5 .dl-menuwrapper ul {
-    background: #643771;
+    background: #003e5d;
 }
 
 .dl-menu.dl-animate-out-1 {
