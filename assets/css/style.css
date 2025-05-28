@@ -9689,6 +9689,11 @@ textarea.form-control.is-invalid {
     background-color: rgb(249 201 180 / var(--tw-bg-opacity));
 }
 
+.group:hover .group-hover\:bg-\[\#76cef2\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(118 206 242 / var(--tw-bg-opacity));
+}
+
 .group:hover .group-hover\:bg-\[\#666\] {
     --tw-bg-opacity: 1;
     background-color: rgb(102 102 102 / var(--tw-bg-opacity));
@@ -9709,7 +9714,12 @@ textarea.form-control.is-invalid {
     color: rgb(255 153 102 / var(--tw-text-opacity));
 }
 
+.group:hover .group-hover\:text-\[\#76cef2\] {
+    --tw-text-opacity: 1;
+    color: rgb(118 206 242 / var(--tw-text-opacity));
+}
 /* Don't use */
+
 .group:hover .group-hover\:text-\[\#f9c9b4\] {
     --tw-text-opacity: 1;
     color: rgb(249 201 180 / var(--tw-text-opacity));
@@ -10592,37 +10602,26 @@ textarea.form-control.is-invalid {
 }
 
 .membership-card {
-    border: 2px solid #fff;
+    background-color: #b5e8f7;
     margin-top: 60px;
-}
-
-.membership-card:hover{
-    border: 2px solid #ff9966;
+    border-radius: 10px 0 0 0;
 }
 
 .membership-card-title-header {
     padding: 10px;
     text-align: center;
-    background-color: #ff9966;
+    background-color: #003e5d;
     color: #fff;
     font-weight: 600;
     margin-top: -60px;
     margin-bottom: 30px;
+    border-radius: 0 0 20px 0;
+
 }
 
 @media (max-width: 991px) {
-    .membership-card {
-        border: 2px solid #ff9966;
-    }
-
     .membership-card-title-header {
-        padding: 10px;
-        text-align: center;
-        background-color: #ff9966;
-        color: #fff;
-        font-weight: 600;
         margin-top: -44px;
         margin-bottom: 40px;
-        border: 2px solid #ff9966;
     }
 }
